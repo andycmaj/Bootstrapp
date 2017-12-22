@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Andy Cunningham",
+    "classifications": [ "api", "swagger", "docker", "react", "redux", "spa" ],
+    "identity": "AndyC.Bootstrapp",
+    "name": "react/redux spa with aspnetcore api",
+    "shortName": "bootstrapp",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "src.api",
+    "preferNameDirectory": true
+}

@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:jest/recommended",
+    "react-app",
+    // add other extends above this line. prettier is last in order to override other inherited configs
+    "prettier"
+  ],
+  "plugins": [
+    "jest",
+    "prettier",
+    "qi-react-intl"
+  ],
+  "rules": {
+    "jest/prefer-to-be-null": "warn",
+    "jest/prefer-to-be-undefined": "warn",
+    "no-console": "off",
+    "no-tabs": "warn",
+    "no-trailing-spaces": "warn",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "es5"
+      }
+    ],
+    "qi-react-intl/format-message-method-should-not-have-default-message": "error",
+    "qi-react-intl/formatted-message-tag-should-not-have-default-message": "error",
+    "react/jsx-no-literals": "error"
+  }
+}
