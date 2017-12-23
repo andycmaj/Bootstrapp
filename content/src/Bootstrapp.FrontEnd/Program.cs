@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace src.api.FrontEnd
+namespace Bootstrapp.FrontEnd
 {
     public class Program
     {

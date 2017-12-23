@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace src.api.FrontEnd.Controllers
+namespace Bootstrapp.FrontEnd.Controllers
 {
     public class HomeController : Controller
     {
@@ -13,7 +13,5 @@ namespace src.api.FrontEnd.Controllers
         {
             return new RedirectResult("~/swagger/");
         }
-
-
     }
 }

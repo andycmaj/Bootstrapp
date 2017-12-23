@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Bootstrapp" ToolsVersion="15.0">
+  <Rules AnalyzerId="CSharp.Analyzers" RuleNamespace="CSharp.Analyzers">
+    <Rule Id="CA1034" Action="None" />
+    <Rule Id="CS1591" Action="None" />
+  </Rules>
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+    <Rule Id="AD0001" Action="None" />
+    <Rule Id="SA0001" Action="None" />
+    <Rule Id="SA1009" Action="None" />
+    <Rule Id="SA1101" Action="None" />
+    <Rule Id="SA1111" Action="None" />
+    <Rule Id="SA1200" Action="None" />
+    <Rule Id="SA1600" Action="None" />
+    <Rule Id="SA1633" Action="None" />
+  </Rules>
+  <Include Path="Development.ruleset" Action="Default" />
+</RuleSet>

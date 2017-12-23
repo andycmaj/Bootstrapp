@@ -1,6 +1,6 @@
-using xunit;
+using Xunit;
 
-namespace src.api.Tests
+namespace Bootstrapp.Tests
 {
     public class UnitTest1
     {

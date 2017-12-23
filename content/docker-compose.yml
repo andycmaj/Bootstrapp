@@ -2,7 +2,7 @@ version: '3'
 
 services:
   api:
-    image: src.api
+    image: Bootstrapp
     build:
       context: ./src
       dockerfile: Dockerfile

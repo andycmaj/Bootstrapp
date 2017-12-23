@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
 
-namespace src.api.FrontEnd
+namespace Bootstrapp.FrontEnd
 {
     public class Startup
     {
@@ -32,7 +32,7 @@ namespace src.api.FrontEnd
                 {
                     Title = "HTTP API",
                     Version = "v1",
-                    Description = "The Service HTTP API"
+                    Description = "The Service HTTP API",
                 });
             });
 

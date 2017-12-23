@@ -1,6 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <NoWarn>$(NoWarn);</NoWarn>
+    <CodeAnalysisRuleSet>../../Analyzers.ruleset</CodeAnalysisRuleSet>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="wwwroot\" />
@@ -9,9 +13,14 @@
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="1.0.0" />
     <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc" Version="4.0.10" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta004" Private="All" />
+    <PackageReference Include="AndyC.Patterns" Version="0.1.0" />
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="..\..\stylecop.json" />
   </ItemGroup>
   <Target Name="CopyDocumentationFile" AfterTargets="ComputeFilesToPublish">
     <ItemGroup>

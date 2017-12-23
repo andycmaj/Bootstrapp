@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using src.api.FrontEnd.ViewModel;
 
-namespace src.api.FrontEnd.Controllers.v1
+namespace Bootstrapp.FrontEnd.Controllers.V1
 {
     [Route("api/v1/[controller]")]
     public class ValuesController : Controller
@@ -20,23 +19,7 @@ namespace src.api.FrontEnd.Controllers.v1
                 "i11", "i12", "i13", "i14", "i15", "i16",
             };
 
-            var total = items.Count;
-
-            List<string> itemsOnPage;
-            if (pageSize * pageIndex + pageSize > total)
-            {
-                itemsOnPage = items.GetRange(pageSize * pageIndex, total - pageSize * pageIndex);
-            }
-            else
-            {
-                itemsOnPage = items.GetRange(pageSize * pageIndex, pageSize);
-            }
-
-            var model = new PaginatedItemsViewModel<string>(
-                pageIndex, pageSize, total, itemsOnPage
-            );
-
-            return Ok(model);
+            return Ok(items);
         }
 
         // GET api/values/5

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "src.api.FrontEnd", "src/src.api.FrontEnd/src.api.FrontEnd.csproj", "{A5AD7ECB-F3F6-42D2-B34B-53C15518AA69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootstrapp.FrontEnd", "src/Bootstrapp.FrontEnd/Bootstrapp.FrontEnd.csproj", "{A5AD7ECB-F3F6-42D2-B34B-53C15518AA69}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "src.api.Tests", "test/src.api.Tests/src.api.Tests.csproj", "{C7CC4DE8-2D5B-4892-855B-3CF126BA62F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootstrapp.Tests", "test/Bootstrapp.Tests/Bootstrapp.Tests.csproj", "{C7CC4DE8-2D5B-4892-855B-3CF126BA62F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -11,7 +11,7 @@
             },
             "args": [
                 "build",
-                "${workspaceRoot}/src/src.api.csproj"
+                "${workspaceRoot}/src/Bootstrapp.csproj"
             ],
             "problemMatcher": "$msCompile"
         },
