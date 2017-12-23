@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using src.api.ViewModel;
+using src.api.FrontEnd.ViewModel;
 
-namespace src.api.Controllers.v1
+namespace src.api.FrontEnd.Controllers.v1
 {
     [Route("api/v1/[controller]")]
     public class ValuesController : Controller

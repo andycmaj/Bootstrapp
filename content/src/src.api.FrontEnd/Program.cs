@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace src.api
+namespace src.api.FrontEnd
 {
     public class Program
     {

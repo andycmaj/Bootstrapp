@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace src.api.ViewModel
+namespace src.api.FrontEnd.ViewModel
 {
     public class PaginatedItemsViewModel<TEntity> where TEntity : class
     {
