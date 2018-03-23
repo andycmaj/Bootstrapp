@@ -1,10 +1,6 @@
 import { createFetchActionTypes } from '../actions/createFetchActions';
 
-const defaultState = {
-  isLoading: false,
-};
-
-export default function fetchReducer(apiName) {
+const fetchReducer = (apiName, defaultState = { isLoading: false }) => {
   const actionTypes = createFetchActionTypes(apiName);
   return (state = defaultState, { type, payload, meta, error }) => {
     switch (type) {
@@ -21,4 +17,6 @@ export default function fetchReducer(apiName) {
         return state;
     }
   };
-}
+};
+
+export default fetchReducer;
